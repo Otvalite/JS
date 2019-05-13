@@ -1,0 +1,35 @@
+doctype
+
+html(lang="ru")
+
+  head
+
+    meta(charset="utf8")
+
+    title= page. title
+
+
+    link(rel="stylesheet", href="/css/index.css", type="text/css")
+
+
+  body
+
+    div
+      h1= page. header
+
+
+    div(role="navigation")
+      include parshells/menu.pug
+      +menu (page. menu)
+
+
+    div
+      span= page. footer
+
+
+
+
+
+
+
+
